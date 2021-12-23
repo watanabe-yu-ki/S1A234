@@ -33,7 +33,7 @@ li {
 }
 
 /*--------------------------------
- レイアウト
+レイアウト
 ---------------------------------*/
 .wrapper {
   padding-top: 73px;
@@ -44,7 +44,7 @@ li {
 }
 
 .section:nth-of-type(odd) {
-  background-color: #f7f7f7;
+  background-color: #edf798;
 }
 
 .inner {
@@ -78,7 +78,7 @@ li {
   top: 0;
   z-index: 1;
   width: 100%;
-  background-color: #fff;
+  background-color: #ffa;
   box-shadow: 0 5px 10px -6px rgba(0,0,0,.1);
 }
 
@@ -185,6 +185,11 @@ li {
 }
 .main-visual-text p:not(:last-child) {
   margin-bottom: 30px;
+}
+.main-img{
+  width: 50%;
+  margin-right: 40px;
+  border-radius: 60%;
 }
 
 /*--------------------------------
