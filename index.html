@@ -1,123 +1,155 @@
 <!DOCTYPE html>
-<html lang="ja">
-  <head>
-    <meta charset="UTF-8" />
-    <!-- ページタイトル -->
-    <title>Cornetto</title>
-    <!-- ページのキーワード -->
-    <meta name="keywords" content="焼き立て,パン,こだわり,東京都" />
-    <!-- デスクリプション：ページの説明 -->
-    <meta name="description" content="焼きたてパン屋Cornettoのホームページです。"/>
-    <!-- ファビコンのリンク -->
-    <link rel="shortcut icon" href="img/favicon.ico" />
-    <!-- リセットCSSの読み込み -->
-    <link rel="stylesheet" href="css/normalize.css" />
-    <!-- スタイルの読み込み -->
-    <link rel="stylesheet" href="css/style.css" />
-  </head>
-  <body>
-    <header>
-      <h1>
-        <img src="img/logo.svg" alt="Cornetto">
-      </h1>
-    </header>
-    
-    <!-- <main>の中身をマークアップ -->
-    <main>
-    <figure>
-      <img src="img/top.jpg" alt="Cornettoのパン">
-    </figure>
-    
-    <nav>
-    <ul>
-      <li><a href="#about">about</a></li>
-      <li><a href="#menu">menu</a></li>
-      <li><a href="#photos">photos</a></li>
-      <li><a href="#access">access</a></li>
-    </ul>
-    </nav>
-    
-    <section id="about">
-    <h2>
-      <img src="img/ttl_about.svg" alt="about">
-    </h2>
-    <p>Cornettoは東京都中区にあるパン屋です。<br>
-    自家製酵母を使ったふわふわサクサクのクロワッサンが大人気。<br>
-    その他ベーグル、ピザパンなど<br>
-    数多くのパンをご用意しております。<br>
-    ぜひご賞味ください。</p>
-    </section>
-    
-    
-    <section id="menu">
-    <h2>
-      <img src="img/ttl_menu.svg" alt="menu">
-    </h2>
-    <ul>
-      <li>クロワッサン・・・１４０円</li>
-      <li>ベーグル・・・１８０円</li>
-      <li>ピザパン・・・１８０円</li>
-      <li>あんぱん・・・１５０円</li>
-      <li>食パン・・・４５０円</li>
-    </ul>
-    </section>
-    <section id="photos">
-    <h2>
-      <img src="img/ttl_photos.svg" alt="photos">
-    </h2>
-    <ul>
-      <li>
-        <figure>
-          <img src="img/photos_01.jpg" alt="ゆとりある朝食">
-          <figcaption>休日の朝には、いつもよりじっくりと選んだパンを食卓に並べてゆとりある朝食をいただきたいものです。</figcaption>
-        </figure>
-      </li>
-      <li>
-        <figure>
-          <img src="img/photos_02.jpg" alt="季節のピザパン">
-          <figcaption>当店人気の”季節のピザパン”。夏の人気メニューはズッキーニとパプリカです。</figcaption>
-        </figure>
-      </li>
-      <li>
-        <figure>
-          <img src="img/photos_03.jpg" alt="ハードパンやベーグル">
-          <figcaption>調理パンだけでなく、ハードパンやベーグルも当店の看板商品です。</figcaption>
-        </figure>
-      </li>
-    </ul>
-    </section>
-    
-    <section id="access">
-    <h2>
-      <img src="img/ttl_access.svg" alt="access">
-    </h2>
-    <div>
-      <address>
-      <strong>Bakery shop Cornetto</strong><br>
-      〒123-4567<br>
-      東京都中区舟入中町4-40<br>
-      <strong>TEL・FAX 012-345-6789</strong>
-      </address>
-      <figure>
-        <img src="img/map.png" alt="店舗周辺地図">
-      </figure>
-    </div>
-    </section>
-    </main>
-    
-    <footr>
-    <div>
-      <p><img src="img/logo_w.svg" alt="Cornetto"></p>
-    </div>
-      <nav>
-      <ul>
-        <li><a href="#about">about</a></li>
-        <li><a href="#menu">menu</a></li>
-        <li><a href="#photos">photos</a></li>
-        <li><a href="#access">access</a></li>
-      </ul>
-      </nav>
-      <p><small>&copy;Copyright 2019 MdN Corporation.</small></p>
-    </footr>
-  </body>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0,user-scalable=no">
+	<meta name="description" content="JOHO TAROのポートフォリオサイトです" />
+	<title>PORTFOLIO</title>
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Material+Icons+Outlined" rel="stylesheet">
+	<link href="portfolio/css/ress.css" media="all" rel="stylesheet" type="text/css" />
+	<link href="portfolio/css/style.css" media="all" rel="stylesheet" type="text/css" />
+	<link rel="shortcut icon" href="portfolio/img/favicon.ico" />
+</head>
+
+<body>
+	<div class="wrapper">
+		<!-- header -->
+		<header class="header ">
+			<div class="inner">
+				<h1 class="header-logo">
+					<a href=".">YUKI WATANABE</a>
+				</h1>
+				<nav class="header-nav">
+					<ul class="header-nav-list">
+						<li class="header-nav-item"><a href="#about">ABOUT</a></li>
+						<li class="header-nav-item"><a href="#works">WORKS</a></li>
+						<li class="header-nav-item"><a href="#skill">SKILL</a></li>
+					</ul>
+				</nav>
+			</div>
+		</header>
+		<!-- /header -->
+		<main class="content">
+			<!-- main-visual -->
+			<div class="main-visual" id="about">
+				<div class="main-visual-inner">
+					<p class="main-visual-title">WATANABE YUKI</p>
+					<p class="main-visual-subtitle">PORTFOLIO</p>
+					<div class="main-visual-profile">
+						<p class="main-visual-img">
+							<img src="portfolio/img/profile.png" alt="自画像" />
+						</p>
+						<p class="main-img">
+							<img src="portfolio/img/logo.png" alt="ポートフォリオ画像" />
+						</p>
+						<p class="main-visual-text">
+							今年入学した新一年生であり、<br class="sp-only">最近出てきたやる気。<br>
+							資格を取得するために<br class="sp-only">ガッチリ勉強します。<br>
+						</p>
+					</div>
+				</div>
+			</div>
+			<!-- /main-visual -->
+			<!-- works -->
+			<section class="works section" id="works">
+				<div class="inner">
+					<h2 class="title">WORKS</h2>
+					<div class="works-list">
+						<a class="works-item btn-denim" href="ensyu/01.html">ENSYU 01</a>
+						<a class="works-item btn-denim" href="ensyu/02.html">ENSYU 02</a>
+						<a class="works-item btn-denim" href="ensyu/03.html">ENSYU 03</a>
+						<a class="works-item btn-denim" href="ensyu/04.html">ENSYU 04</a>
+						<a class="works-item btn-denim" href="ensyu/05.html">ENSYU 05</a>
+						<a class="works-item btn-denim" href="ensyu/06.html">ENSYU 06</a>
+						<a class="works-item btn-denim" href="ensyu/07.html">ENSYU 07</a>
+						<a class="works-item btn-open" href="ensyu/08.html">ENSYU 08</a>
+						<a class="works-item btn-open" href="ensyu/09.html">ENSYU 09</a>
+						<a class="works-item btn-open" href="ensyu/10.html">ENSYU 10</a>
+						<a class="works-item btn-open" href="ensyu/11.html">ENSYU 11</a>
+						<a class="works-item btn-open" href="ensyu/12.html">ENSYU 12</a>
+						<a class="works-item btn-open" href="ensyu/13_1.html">ENSYU 13_1</a>
+						<a class="works-item btn-open" href="ensyu/13_2.html">ENSYU 13_2</a>
+						<a class="works-item btn-open" href="ensyu/14.html">ENSYU 14</a>
+						<a class="works-item btn-open" href="ensyu/15.html">ENSYU 15</a>
+						<a class="works-item btn-open" href="ensyu/16.html">ENSYU 16</a>
+						<a class="works-item btn-open" href="ensyu/17_1.html">ENSYU 17_1</a>
+						<a class="works-item btn-open" href="ensyu/17_2.html">ENSYU 17_2</a>
+						<a class="works-item btn-open" href="ensyu/17_3.html">ENSYU 17_3</a>
+						<a class="works-item btn-open" href="ensyu/18.html">ENSYU 18</a>
+						<a class="works-item btn-open" href="ensyu/19_1.html">ENSYU 19_1</a>
+						<a class="works-item btn-open" href="ensyu/19_2.html">ENSYU 19_2</a>
+						<a class="works-item btn-open" href="ensyu/20.html">ENSYU 20</a>
+						<a class="works-item btn-open" href="ensyu/21_1.html">ENSYU 21_1</a>
+						<a class="works-item btn-open" href="ensyu/21_2.html">ENSYU 21_2</a>
+						<a class="works-item btn-open" href="ensyu/22_1.html">ENSYU 22_1</a>
+						<a class="works-item btn-open" href="ensyu/22_2.html">ENSYU 22_2</a>
+						<a class="works-item btn-open" href="ensyu/23_1.html">ENSYU 23_1</a>
+						<a class="works-item btn-open" href="ensyu/23_2.html">ENSYU 23_2</a>
+						<a class="works-item btn-box" href="challenge/ch.html">CHALLENGE1</a>
+						<a class="works-item btn-box" href="challenge2/ch2.html">CHALLENGE2</a>
+						<a class="works-item btn-gradation" href="lesson6/index.html">LESSON 6</a>
+						<a class="works-item btn-gradation" href="lesson7/index.html">LESSON 7</a>
+					</div>
+				</div>
+			</section>
+			<!-- /works -->
+
+			<!-- skill -->
+			<section class="skill section" id="skill">
+				<div class="inner">
+					<h2 class="title">SKILL</h2>
+					<div class="skill-list">
+						<div class="skill-item">
+							<p class="skill-img"><img src="portfolio/img/html.ico" alt=""></p>
+							<div class="skill-body">
+								<h3 class="skill-name">HTML5/CSS3</h3>
+								<p class="skill-text">
+									演習課題を取り組み中。</p>
+							</div>
+						</div>
+						<div class="skill-item">
+							<p class="skill-img"><img src="portfolio/img/python.ico" alt=""></p>
+							<div class="skill-body">
+								<h3 class="skill-name">Python</h3>
+								<p class="skill-text">
+									基本的な知識を身に着けました。</p>
+							</div>
+						</div>
+						<div class="skill-item">
+							<p class="skill-img"><img src="portfolio/img/java.ico" alt=""></p>
+							<div class="skill-body">
+								<h3 class="skill-name">Java</h3>
+								<p class="skill-text">
+									アルゴリズムを理解できないため理解に苦労しています。</p>
+							</div>
+						</div>
+						<div class="skill-item">
+							<p class="skill-img"><img src="portfolio/img/sikaku.ico" alt=""></p>
+							<div class="skill-body">
+								<h3 class="skill-name">国家試験</h3>
+								<p class="skill-text">
+									取得数０</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<!-- /skill -->
+			<div class="page-top" id="js-page-top">
+				<span class="material-icons-outlined">expand_less</span>
+			</div>
+		</main>
+		<!-- footer -->
+		<footer class="footer">
+			<div class="copyright">&copy; HCS ITシステム科.</div>
+		</footer>
+		<!-- /footer -->
+	</div>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<script type="text/javascript" src="portfolio/js/script.js"></script>
+</body>
+
 </html>
