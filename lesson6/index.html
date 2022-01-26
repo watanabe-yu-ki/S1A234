@@ -16,20 +16,20 @@
     <link rel="stylesheet" href="css/style.css" />
   </head>
   <body>
-    <header>
-      <h1>
+    <header class="header">
+      <h1 class="logo">
         <img src="img/logo.svg" alt="Cornetto">
       </h1>
     </header>
     
     <!-- <main>の中身をマークアップ -->
-    <main>
-    <figure>
+    <main class="main">
+    <figure class="top">
       <img src="img/top.jpg" alt="Cornettoのパン">
     </figure>
     
-    <nav>
-    <ul>
+    <nav class="nav">
+    <ul class="nav-list">
       <li><a href="#about">about</a></li>
       <li><a href="#menu">menu</a></li>
       <li><a href="#photos">photos</a></li>
@@ -37,8 +37,8 @@
     </ul>
     </nav>
     
-    <section id="about">
-    <h2>
+    <section class="section about" id="about">
+    <h2 class="heading">
       <img src="img/ttl_about.svg" alt="about">
     </h2>
     <p>Cornettoは東京都中区にあるパン屋です。<br>
@@ -49,11 +49,11 @@
     </section>
     
     
-    <section id="menu">
-    <h2>
+    <section class="section menu" id="menu">
+    <h2 class="heading">
       <img src="img/ttl_menu.svg" alt="menu">
     </h2>
-    <ul>
+    <ul class="menu-list">
       <li>クロワッサン・・・１４０円</li>
       <li>ベーグル・・・１８０円</li>
       <li>ピザパン・・・１８０円</li>
@@ -61,11 +61,11 @@
       <li>食パン・・・４５０円</li>
     </ul>
     </section>
-    <section id="photos">
-    <h2>
+    <section class="section photos" id="photos">
+    <h2 class="heading">
       <img src="img/ttl_photos.svg" alt="photos">
     </h2>
-    <ul>
+    <ul class="photos-list">
       <li>
         <figure>
           <img src="img/photos_01.jpg" alt="ゆとりある朝食">
@@ -87,37 +87,42 @@
     </ul>
     </section>
     
-    <section id="access">
-    <h2>
+    <section class="section access" id="access">
+    <h2 class="heading">
       <img src="img/ttl_access.svg" alt="access">
     </h2>
-    <div>
-      <address>
+    <div class="access-row">
+      <address class="access-address">
       <strong>Bakery shop Cornetto</strong><br>
       〒123-4567<br>
       東京都中区舟入中町4-40<br>
       <strong>TEL・FAX 012-345-6789</strong>
       </address>
-      <figure>
+      <figure class="access-map">
         <img src="img/map.png" alt="店舗周辺地図">
       </figure>
     </div>
     </section>
     </main>
     
-    <footr>
-    <div>
-      <p><img src="img/logo_w.svg" alt="Cornetto"></p>
-    </div>
-      <nav>
-      <ul>
-        <li><a href="#about">about</a></li>
-        <li><a href="#menu">menu</a></li>
-        <li><a href="#photos">photos</a></li>
-        <li><a href="#access">access</a></li>
+    <footer class="footer">
+    <div class="footer-container">
+      <p class="footer-logo">
+        <img src="img/logo_w.svg" alt="Cornetto">
+      </p>
+      <div class="footer-body"></div>
+        <nav class="footer-nav">
+        <ul class="footer-nav-list">
+          <li><a href="#about">about</a></li>
+          <li><a href="#menu">menu</a></li>
+          <li><a href="#photos">photos</a></li>
+          <li><a href="#access">access</a></li>
       </ul>
       </nav>
-      <p><small>&copy;Copyright 2019 MdN Corporation.</small></p>
-    </footr>
+      <p class="copyright">
+        <small>&copy;Copyright 2019 MdN Corporation.</small>
+      </p>
+      </div>
+    </footer>
   </body>
 </html>
